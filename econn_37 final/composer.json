@@ -1,0 +1,17 @@
+{
+    "name": "round37/ecommerce",
+    "description": "Ecommerce project Structure",
+    "type": "project",
+    "authors": [{
+        "name": "asamamun",
+        "email": "asamamun.web@gmail.com"
+    }],
+    "require": {
+        "intervention/image": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ["classes/", "admin/"]
+        }
+    }
+}

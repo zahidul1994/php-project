@@ -1,0 +1,51 @@
+[18-Oct-2018 15:46:22 Asia/Dhaka] PHP Notice:  Undefined variable: obj in D:\xampp728\htdocs\r37a\php\classes\class41\ecomm\index.php on line 8
+[18-Oct-2018 15:46:22 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function test() on null in D:\xampp728\htdocs\r37a\php\classes\class41\ecomm\index.php:8
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37a\php\classes\class41\ecomm\index.php on line 8
+[13-Nov-2018 16:44:51 Asia/Dhaka] PHP Notice:  Undefined index: item_quantity_0 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 51
+[13-Nov-2018 16:44:51 Asia/Dhaka] PHP Notice:  Undefined index: item_price_0 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 52
+[13-Nov-2018 16:44:51 Asia/Dhaka] PHP Notice:  Undefined index: item_options_0 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 53
+[13-Nov-2018 18:48:30 Asia/Dhaka] PHP Notice:  Undefined index: item_id_1 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 55
+[13-Nov-2018 18:48:53 Asia/Dhaka] PHP Notice:  Undefined index: item_id_1 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 55
+[13-Nov-2018 18:50:01 Asia/Dhaka] PHP Notice:  Undefined index: item_id_1 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 55
+[13-Nov-2018 18:50:47 Asia/Dhaka] PHP Notice:  Undefined index: item_id_1 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 55
+[13-Nov-2018 18:52:18 Asia/Dhaka] PHP Notice:  Undefined index: item_id_1 in D:\xampp728\htdocs\r37a\jQuery\ecomm\checkoutHandler.php on line 55
+[14-Nov-2018 18:03:59 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function App\debug_log() in D:\xampp728\htdocs\r37a\jQuery\ecomm\classes\Database.php:207
+Stack trace:
+#0 D:\xampp728\htdocs\r37a\jQuery\ecomm\order.php(8): App\Database->get_all_where('user_id = 2')
+#1 {main}
+  thrown in D:\xampp728\htdocs\r37a\jQuery\ecomm\classes\Database.php on line 207
+[17-Nov-2018 15:20:24 Asia/Dhaka] PHP Warning:  Use of undefined constant userinfo - assumed 'userinfo' (this will throw an Error in a future version of PHP) in D:\xampp728\htdocs\r37a\jQuery\ecomm\logout.php on line 5
+[17-Nov-2018 15:22:44 Asia/Dhaka] PHP Notice:  Undefined index: email in D:\xampp728\htdocs\r37a\jQuery\ecomm\register.php on line 9
+[17-Nov-2018 15:40:06 Asia/Dhaka] PHP Notice:  Undefined variable: message in D:\xampp728\htdocs\r37a\jQuery\ecomm\register.php on line 137
+[17-Nov-2018 15:40:06 Asia/Dhaka] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in D:\xampp728\htdocs\r37a\jQuery\ecomm\register.php on line 137
+[17-Nov-2018 15:56:52 Asia/Dhaka] App\Database::get_all_pagedERROR mysqli query : 
+SELECT `products`.*,`images`.`imagename`
+FROM `products`
+LEFT JOIN  images ON products.id = images.product_id
+group by `products`.`id`
+order by `products`.`created` desc 
+limit -12,12
+[17-Nov-2018 15:56:52 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37a\jQuery\ecomm\products.php on line 208
+[17-Nov-2018 16:00:18 Asia/Dhaka] App\Database::get_all_pagedERROR mysqli query : 
+SELECT `products`.*,`images`.`imagename`
+FROM `products`
+LEFT JOIN  images ON products.id = images.product_id
+group by `products`.`id`
+order by `products`.`created` desc 
+limit -12,12
+[17-Nov-2018 16:00:18 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37a\jQuery\ecomm\products.php on line 208
+[17-Nov-2018 16:00:29 Asia/Dhaka] App\Database::get_all_pagedERROR mysqli query : 
+SELECT `products`.*,`images`.`imagename`
+FROM `products`
+LEFT JOIN  images ON products.id = images.product_id
+group by `products`.`id`
+order by `products`.`created` desc 
+limit -24,12
+[17-Nov-2018 16:00:29 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in D:\xampp728\htdocs\r37a\jQuery\ecomm\products.php on line 208
+[17-Nov-2018 18:03:41 Asia/Dhaka] PHP Notice:  Undefined variable: productImages in D:\xampp728\htdocs\r37a\jQuery\ecomm\single.php on line 124
+[17-Nov-2018 18:03:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in D:\xampp728\htdocs\r37a\jQuery\ecomm\single.php:124
+Stack trace:
+#0 {main}
+  thrown in D:\xampp728\htdocs\r37a\jQuery\ecomm\single.php on line 124
